@@ -105,11 +105,11 @@ button {
 }
 
 .bg1 {
-  background: var(--bgColor1);
+  background: var(--bgColor1) !important;
 }
 
 .bg2 {
-  background: var(--bgColor2);
+  background: var(--bgColor2) !important;
 }
 
 /* *** *** *** *** *** *** */
