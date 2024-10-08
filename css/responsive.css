@@ -57,13 +57,13 @@
   .intro-boost {
     flex-direction: column-reverse;
   }
-}
 
-@media (max-width: 767px) {
   header.about-header img {
     width: 50% !important;
   }
+}
 
+@media (max-width: 767px) {
   header.about-header ul {
     flex-direction: column;
     align-items: start !important;
@@ -72,14 +72,6 @@
 
   article.skills h6 {
     min-height: auto;
-  }
-
-  article.education .education-item {
-    min-height: 216px;
-  }
-
-  article.education .education-item p:first-of-type {
-    min-height: 96px;
   }
 
   .services .services-box .services-item .order:not(:first-of-type) {
